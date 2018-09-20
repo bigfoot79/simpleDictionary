@@ -18,7 +18,7 @@ def add_elements(items):
 def main():
     # this program simply creates a dictionary (2 element list) and then identifies if an element exists and returns the keyValue phrase.
     items = {}
-    add_elements(items)
+    items = add_elements(items)
 
     print("Jargon definition: %s" % items["jargon"])
     print("Dictionary definition: %s" % items["dictionary"])
